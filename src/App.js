@@ -14,7 +14,7 @@ function App() {
       <NavBar />
       <Router>
           <Switch>
-            <Route exact path='/modologs/'>
+            <Route exact path='/'>
                 <Home />
             </Route>
          </Switch>
