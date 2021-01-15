@@ -2,7 +2,6 @@
 import './App.css';
 
 import React from "react";
-import ReactDOM from "react-dom";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 import Home from './Components/Home/Home'
@@ -15,12 +14,9 @@ function App() {
       <NavBar />
       <Router>
           <Switch>
-            <Route exact path='/'>
+            <Route exact path='/modologs/'>
                 <Home />
             </Route>
-            {/* <Route exact path='/dev'>
-              <Dev />
-            </Route>  */}
          </Switch>
       </Router>
       </>
