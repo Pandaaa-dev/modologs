@@ -1,0 +1,150 @@
+.updateContainer {
+    margin: 5vh 25vh;
+    height: 20vh;
+    padding: 3vh 3vh;
+    display: flex;
+    flex-direction: column;
+    transition: transform 1s;
+}
+.updateContainer:hover {
+    transform: translateY(-1vh);
+    opacity: 0.8;
+    cursor: pointer;
+}
+.first-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.subject {
+    font-size: 5vh;
+    color: #399680 ;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.author {
+    font-size: 3vh;
+    font-family: monospace;
+    color: rgba(1,77,78,0.5);
+    font-weight: bolder;
+}
+
+.content {
+    margin-top: 2.5vh;
+    font-size: 2.2vh;
+    font-weight: lighter;
+    color: rgba(0, 0, 0, 0.5);
+    height: 10vh;
+}
+
+.third-row {
+    align-self: center;
+    position: relative;
+    font-size: 2.5vh;
+    opacity: 0.85;
+}
+
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    animation: fade 0.2s linear;
+    transform: translate(-50%, -50%);
+    height: 95vh;
+    width: 70vh;
+    background: whitesmoke;
+    color: black;   
+    /* display: none; */
+    text-align: center;
+    transition: all 0.3s;
+    z-index: 2;
+    border-radius: 10%;
+    
+}
+
+.modalTitle {
+    font-size: 4vh;
+    font-family: sans-serif;
+    margin: 5vh;
+    font-weight: bolder;
+    color: #7BB4A6;
+}
+.modalDate{
+    font-family: monospace;
+    opacity: 0.6;
+    font-size: 2.5vh;
+    margin-bottom: 3vh;
+}
+
+.modalContent{
+    margin: 0 5vh;
+    font-size: 2.25vh;
+    margin-bottom: 5vh;
+    font-family: monospace;
+    font-weight: lighter;
+    opacity: 0.6;
+    opacity: 0.8;
+
+}
+.modalAuthor {
+    opacity: 0.5;
+    /* align-self: flex-end; */
+    margin-top: 35vh;
+    /* bottom: 5rem; */
+}
+
+.modalBackdrop{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    z-index: 1;
+    /* display: none   ; */
+    background-color: rgba(0, 0, 0, 0.3);
+    animation: fade 0.2s linear;
+}
+
+.displayYes {
+    display: block;
+}
+
+.order {
+    margin: 5vh;
+    opacity: 0.5;
+    font-size: 1.6vh;
+    font-family: monospace;
+}
+
+.order:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+.displayNO {
+    display: none;
+}
+
+.fullContainer {
+    min-height: 100vh;
+}
+
+.updatesTitle {
+    font-family: sans-serif;
+    font-size: 5vh;
+    text-align: center;
+    margin-top: 3vh;
+    color: #7BB4A6;
+    font-weight: bolder;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
