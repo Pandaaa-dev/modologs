@@ -78,7 +78,6 @@
     font-size: 2.5vh;
     margin-bottom: 3vh;
 }
-
 .modalContent{
     margin: 0 5vh;
     font-size: 2.25vh;
@@ -139,12 +138,77 @@
     color: #7BB4A6;
     font-weight: bolder;
 }
-
+.alert {
+    text-align: center;
+    margin: 2.5vh 1vh;
+    font-family: monospace;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.3);
+}
 @keyframes fade {
     0% {
         opacity: 0;
     }
     100% {
         opacity: 1;
+    }
+}
+
+@media (max-width:960px){
+    .updateContainer {
+        height: 15vh;
+        margin: 2rem 01rem;
+    }
+    .subject {
+        font-size: 3vh;
+    }
+    .author{
+        font-size: 2vh;
+        margin-right: 1rem;
+    }
+    .content {
+        margin-top: 1vh;
+        font-size: 2vh;
+    }
+    .third-row {
+        font-size: 1.5vh;
+
+    }
+    .modal {
+        height: 80%;
+        width: 80%;
+    }
+    /* .modalContent .modalDate .modalTitle .modalAuthor .modalBackdrop */
+    .modalContent { 
+        font-size: 1rem;
+        opacity: 0.6;
+        margin: 1.5rem 1.5rem;
+    }
+    .modalAuthor { 
+        margin: 0;
+        font-family: sans-serif;
+        font-size: 0.85rem;
+        font-weight: bold;
+    }
+    .order {
+        margin: 1.5rem;
+        font-size: 1rem;
+    }
+    .alert {
+        font-size: 0.9rem;
+        margin: 3vh 2vh;
+    }
+    .updatesTitle { 
+        font-size: 4vh;
+    }
+}
+
+@media (max-width:378px) and (min-height:810px) {
+    .subject {
+        font-size: 2.5vh;
+    }
+    .content {
+        font-size: 1.7vh;
     }
 }

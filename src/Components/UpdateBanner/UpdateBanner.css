@@ -60,3 +60,29 @@
         background-position-y: bottom;
     }
 }
+
+@media (max-width:960px) {
+    .bannerTitle { 
+        font-size: 3.5vh;
+        margin: 1.5vh auto;
+    }
+    .bannerDesc {
+        margin: 0.5vh 3.5vh;
+        font-size: 2.5vh;
+    }
+    .bannerAnimation{
+        background: url('../../assets/CodgIT.png');
+        animation: bannerAnimation 15s linear infinite alternate;
+    }
+    .bannerAnimation:hover{
+        display: block;
+        animation: bannerAnimation 15s linear infinite alternate;
+    }
+}
+@media (max-width:378px) and (min-height:810px) {
+    .bannerDesc {
+        margin: 0.5vh 3.5vh;
+        font-size: 2vh;
+    }
+
+}

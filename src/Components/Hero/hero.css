@@ -67,3 +67,40 @@ a {
     transform: translateY(-0.1vh);
     opacity: 0.8;
 }
+.heroBackdrop {
+    /* display: none; */
+    background: transparent;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width:960px){
+    .homeHero {
+        background: url('../../assets/hero.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .heroBackdrop {
+        background: rgba(0, 0, 0, 0.6);
+    }
+    .firstHalf { 
+        display: none;
+    }
+    .secondHalf {
+        width: 100%;
+    }
+    .HeroTitle {
+        font-size: 6vh;
+        margin: 0 0;
+    }
+    .HeroDesc { 
+        font-size: 2.8vh;
+        margin: 2.5vh 2.5vh;
+    }
+    .btn {
+        font-size: 2vh;
+    }
+}

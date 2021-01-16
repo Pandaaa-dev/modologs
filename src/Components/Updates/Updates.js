@@ -23,8 +23,10 @@ const Updates = (props) => {
     }
     
     return (
+        <>
         <Element name='updatesSection' id='updates' className='fullContainer'>
         <div  className='updatesTitle'>Recent Updates</div>
+        <div className='alert'>(Click on the cards to see the full update)</div>
         {showBackdrop && <div onClick={exitModal} className='modalBackdrop'></div>}
         {showModal && (
             <div className='modal'>
@@ -42,6 +44,7 @@ const Updates = (props) => {
                     previewDate = {update.previewDate}/> )
         })}
         </Element>
+        </>
     )
 }
 

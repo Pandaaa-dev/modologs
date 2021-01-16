@@ -1,13 +1,17 @@
 import React from 'react'
-
-const Update = (props) => {
+import './Footer.css'
+const Footer = (props) => {
      
 
     return (
         <>
-            
+         <div className='footer'>
+            <div className='funding'>
+              <span className='span'> To contact us, please email us @ omikhan3@outlook.com </span>
+            </div>
+        </div>   
         </>
     )
 }
 
-export default Update
+export default Footer
