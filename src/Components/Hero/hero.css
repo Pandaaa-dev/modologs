@@ -1,3 +1,12 @@
+@font-face {
+    font-family: 'FZShuTi';
+    src: url('./chinese.fzstk.ttf');
+}
+@font-face {
+    font-family: 'Ink Free';
+    src: url('./Inkfree.ttf');
+}
+
 .homeHero {
     width: 100%;
     height: calc(95vh - 4vh);
