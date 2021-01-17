@@ -1,22 +1,22 @@
 [
     {
         
-        "subject": "New Server",
+        "subject": "Features",
         "authorName": "Omi",
-        "previewContent": "We have decided to make this website so that we can keep track of our own vision for modo. The modo app we want isn't just an app, its the origin of a whole community. And we do not want to lose that sight.",
-        "content": "We have decided to make this website so that we can keep track of our own vision for modo. The modo app we want isn't just an app, its the origin of a whole community. And we do not want to lose that sight. We have decided to make this website so that we can keep track of our own vision for modo. The modo app we want isn't just an app, its the origin of a whole community. And we do not want to lose that sight.",
-        "previewDate": "12/15/18",
+        "previewContent": "Other than the normal buying/selling features, we will include other features such as safe-buy, types of packages(for sellers), fraud-friendly interface, service reviews etc",
+        "content": "Other than the normal buying/selling features, we will include other features such as safe-buy, types of packages(for sellers), fraud-friendly interface, service reviews, personal site integration, different payment gateway integrations, a social network-ish area, etc. We hope you guys will like whatever we have in store for you.",
+        "previewDate": "10/01/20",
         "key": 2
         
     },
     {
         
-        "subject": "New Server",
+        "subject": "What is this?",
         "authorName": "Omi",
-        "previewContent": "We have decided to make this website so that we can keep track of our own vision for modo. The modo app we want isn't just an app, its the origin of a whole community. And we do not want to lose that sight.",
-        "content": "We have decided to make this website so that we can keep track of our own vision for modo. The modo app we want isn't just an app, its the origin of a whole community. And we do not want to lose that sight. We have decided to make this website so that we can keep track of our own vision for modo. The modo app we want isn't just an app, its the origin of a whole community. And we do not want to lose that sight.",
-        "previewDate": "12/15/18",
-        "key": 3
+        "previewContent": "This is a new and upcoming website that will offer services to people and will provide a platform for workers too.",
+        "content": "We have started this project a few months ago. The end-goal for this project is to offer services 'To people, by people'. Here services will be initiated by freelancers/organizations themselves and their services will be 'buyable'. We will keep this as seller friendly as possible too. We hope this goes well. Stay tuned. ",
+        "previewDate": "01/01/20",
+        "key": 1
         
     }
 ]
